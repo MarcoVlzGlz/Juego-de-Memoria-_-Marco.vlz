@@ -10,6 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var nums = 0
+    
+    for nums in 0...100 {
+    if nums % 5 == 0{
+    print("#\(nums) Bingo!!!")
+    }
+    if nums % 2 == 0{
+    print("#\(nums) Par!!!")
+    } else{
+    print("#\(nums) Impar!!!")
+    }
+    if nums >= 30 && nums <= 40 {
+    print("#\(nums) Viva Swift!!!")
+    }
+    }
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
